@@ -9,5 +9,7 @@ body {
     height: 100vh; 
 }
 .banner-column{
-    background-color: antiquewhite;
+    background-color: rgb(17, 16, 15);
+    margin: 0 auto;
+    justify-content: center;
 }
