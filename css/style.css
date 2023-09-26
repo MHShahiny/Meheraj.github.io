@@ -4,12 +4,41 @@ body {
     padding: 0; /* Remove default padding */
 }
 
+
 .banner-container {
     background-color:#199CD8;
     height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 .banner-column{
-    background-color: rgb(17, 16, 15);
+    background-color: rgb(199, 127, 55);
     margin: 0 auto;
     justify-content: center;
+}
+.nav-container{
+    text-transform: uppercase;
+    background-color: black;
+}
+.about-container{
+    background-color: #563D7C;
+    text-align: justify;
+}
+.education-container{
+    background-color: antiquewhite;
+}
+.color
+{
+    color: #563D7C;
+}
+.circle
+{
+    background-color: lightpink;
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    text-align: center;
 }
